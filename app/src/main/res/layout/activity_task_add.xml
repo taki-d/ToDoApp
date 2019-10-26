@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".task_add">
+    tools:context=".TaskAdd">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -23,17 +23,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="22sp"
-                android:text="Title" />
+                android:text="Title"
+                android:textSize="22sp" />
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/title_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Name" />
+                android:inputType="text" />
         </LinearLayout>
 
         <LinearLayout
@@ -50,7 +49,7 @@
                 android:text="Date" />
 
             <EditText
-                android:id="@+id/editText7"
+                android:id="@+id/date_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -73,7 +72,7 @@
                 android:textSize="22sp" />
 
             <EditText
-                android:id="@+id/editText10"
+                android:id="@+id/detail_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
